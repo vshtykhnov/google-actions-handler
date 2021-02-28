@@ -1,0 +1,66 @@
+{
+  "name": "google-actions-handle",
+  "version": "1.0.1",
+  "description": "Web hook handling for your Google Actions",
+  "keywords": [
+    "NestJS",
+    "google-actions",
+    "actions-console",
+    "handler",
+    "decorator",
+    "webhook",
+    "typescript",
+    "addons"
+  ],
+  "author": "Vladymyr Shtykhnov",
+  "license": "MIT",
+  "types": "lib/index.d.ts",
+  "main": "lib/index.js",
+  "files": [
+    "/lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vshtykhnov/google-actions-handler"
+  },
+  "bugs": {
+    "url": "https://github.com/vshtykhnov/google-actions-handler/issues"
+  },
+  "engines": {
+    "node": ">= 8.9.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "format": "prettier src/**/*.ts --write"
+  },
+  "devDependencies": {
+    "@nestjs/common": "^6.11.11",
+    "@nestjs/core": "^6.11.11",
+    "@nestjs/platform-express": "^6.11.11",
+    "@nestjs/testing": "^6.11.11",
+    "@types/chai": "^4.2.15",
+    "@types/express": "^4.17.11",
+    "@types/jest": "^22.2.3",
+    "@types/node": "^7.10.14",
+    "@types/supertest": "^2.0.10",
+    "chai": "^4.3.0",
+    "coveralls": "^3.1.0",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.6.6",
+    "sinon": "^5.1.1",
+    "sinon-express-mock": "^2.2.1",
+    "supertest": "^3.4.2",
+    "ts-jest": "^24.3.0",
+    "typescript": "^3.9.9"
+  },
+  "peerDependencies": {
+    "rxjs": "^6.4.0",
+    "@nestjs/core": ">=6.0.1",
+    "@nestjs/common": ">=6.0.1"
+  },
+  "dependencies": {
+    "@nestjs-plus/discovery": "^2.0.2"
+  }
+}
